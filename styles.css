@@ -25,7 +25,8 @@ h1,h2,h3{
     justify-content: space-evenly;
 }
 main img{
-    max-width: 30%;
+    width: 30%;
+    height: auto;
 }
 .aboutme{
     background-color: #588157;
