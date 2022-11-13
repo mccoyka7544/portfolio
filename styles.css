@@ -26,7 +26,7 @@ h1,h2,h3{
 }
 main img{
     width: 30%;
-    height: auto;
+    height: 50%;
 }
 .aboutme{
     background-color: #588157;
@@ -43,6 +43,18 @@ main img{
     padding: 1rem;
     margin:1rem
 }
+.gallery{
+    flex-direction: row;
+    justify-content: flex-start
+}
+.contact a{
+    text-align: center;
+}
+a{
+    color: #DAD7CD;
+    font-weight: bolder;
+}
+
 @media (min-width:1000px){
     body{
         display:grid;
@@ -53,10 +65,19 @@ main img{
     .sidenav{
         flex-direction:column;
         justify-content: flex-start;
+        padding: 1rem;
     }
     .aboutme{
         display:flex;
         gap: 1rem;
+    }
+    section>img{
+        max-width:35%;
+    }
+    .sidenav a{
+        padding: 1rem;
+        color: #DAD7CD;
+        font-weight: bold;
     }
 }
 
